@@ -1,0 +1,5 @@
+node_modules/
+.expo/*
+npm-debug.*
+one-time-password-6d0f9-firebase-adminsdk-99v1n-ea0b4781cd.json
+twilio.js

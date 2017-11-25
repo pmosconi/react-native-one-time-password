@@ -1,0 +1,21 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions --project one-time-password-6d0f9",
+    "logs": "firebase functions:log",
+    "local": "functions start && functions deploy $function --trigger-http",
+    "debug": "functions inspect $function",
+    "stop-debug": "functions reset $function"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1",
+    "phone": "^2.0.0-rc.1",
+    "twilio": "^3.9.2"
+  },
+  "private": true
+}
