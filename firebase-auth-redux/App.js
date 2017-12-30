@@ -14,12 +14,12 @@ const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 export default class App extends React.Component {
   componentDidMount() {
     const config = {
-      apiKey: "AIzaSyCteGgArCcJuPfQXfWTAfdQ57vDaqzM5sc",
-      authDomain: "one-time-password-6d0f9.firebaseapp.com",
-      databaseURL: "https://one-time-password-6d0f9.firebaseio.com",
-      projectId: "one-time-password-6d0f9",
-      storageBucket: "one-time-password-6d0f9.appspot.com",
-      messagingSenderId: "298856870067"
+      apiKey: "...",
+      authDomain: "...",
+      databaseURL: "...",
+      projectId: "...",
+      storageBucket: "...",
+      messagingSenderId: "..."
     };
     firebase.initializeApp(config);
   }
